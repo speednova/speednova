@@ -57,22 +57,119 @@
  //   @include custom-components-theme($anms-nature-theme);
  // }
 
- button.nav-button.mat-button.mat-button-base.ng-tns-c115-0.ng-star-inserted.active {
-  border-bottom: 2px solid #ad1457;
-  background: #f5f5f4;
+ .light-theme mat-sidenav-container mat-toolbar button.active {
+  border-bottom: 2px solid #e01f45;
+  background: white;
   color: grey;
   animation-name: example;
   animation-duration: 0.5s;
   border-radius: unset;
+  font: 500 14px/20px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+}
+
+.light-theme mat-sidenav-container mat-toolbar button {
+  line-height: 45px !important;
+  font: 500 14px/20px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
 }
 
 
  @keyframes example {
   from {border-bottom: 2px solid white;}
-  to {border-bottom: 2px solid #ad1457;}
+  to {border-bottom: 2px solid #e01f45;}
 }
 
 .light-theme mat-sidenav-container .footer {
-  color: #757575;
-  background-color: #dcdcdc;
+  color: #757575 !important;
+  background-color: #d4d4d4 !important;
+  border-top: 1px solid #c2c2c2;
+}
+
+.light-theme .mat-toolbar {
+  background: #ffffff;
+  color: rgba(0,0,0,.87);
+}
+
+
+a.branding {
+  color: #f21645;
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: -2px;
+  font-size: large;
+}
+
+
+a.branding img {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.light-theme .mat-elevation-z4 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.011), 0px 1px 10px 0px rgba(0, 0, 0, 0.01);
+}
+
+.mat-toolbar-single-row {
+  height: 48px !important;
+}
+
+.light-theme .mat-drawer-container {
+  background-color: #e4e4e4;
+  color: rgba(56, 56, 56, 0.87);
+}
+
+mat-sidenav-container[_ngcontent-jxe-c115] .wrapper[_ngcontent-jxe-c115] .content[_ngcontent-jxe-c115] {
+  -webkit-box-flex: 1;
+  flex: 1 0 auto;
+  margin-top: 48px;
+  overflow: hidden;
+}
+
+.content {
+  margin-top: 48px !important;
+}
+
+@media (max-width: 600px){
+  .mat-toolbar-single-row {
+    height: 56px !important;
+  }
+}
+
+h1 {
+  color: #545454;
+  font-size: 2em !important;
+  font: 500 26px/30px Google Sans,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif !important;
+}
+
+.freebirdFormviewerViewHeaderHeader.exportHeader {
+  display: none !important;
+}
+
+.titulo { font-family: 'Comfortaa', cursive  !important;
+}
+
+nav:last-child .mat-ink-bar {
+  background-color: #f21645 !important;
+}
+
+nav:last-child .mat-tab-nav-bar, .mat-tab-header { border: none !important;}
+
+nav:last-child .mat-tab-nav-bar.mat-tab-header {
+  height: 48px;
+}
+.mat-tab-link
+{
+  opacity: 1 !important;
+}
+nav:last-child .mat-tab-label-active {
+  color: #f21645 !important;
+}
+
+nav a.d-none.d-md-inline {flex: 1 0 auto;}
+
+
+fa-icon.ng-fa-icon {
+  color: #979797;
+}
+
+nav:last-child .light-theme .mat-tab-label, .light-theme .mat-tab-link {
+  color: rgb(127, 127, 127);
 }

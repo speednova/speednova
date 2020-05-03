@@ -31,11 +31,18 @@ export class AppComponent implements OnInit {
   envName = env.envName;
   version = env.versions.app;
   year = new Date().getFullYear();
-  logo = require('../../assets/logo.png');
+  logo = require('../../assets/logo.svg');
   languages = ['es', 'en'];
+
+  navigationinicio = [
+      { link: 'inicio', label: 'anms.menu.about' }
+     ];
+
   navigation = [
     { link: 'inicio', label: 'anms.menu.about' },
-    { link: 'servicios', label: 'anms.menu.features' }
+    { link: 'portfolio', label: 'anms.menu.portfolio' },
+    { link: 'servicios', label: 'anms.menu.features' },
+    { link: 'contacto', label: 'anms.contact.title' }
    // { link: 'examples', label: 'anms.menu.examples' }
   ];
   navigationSideMenu = [

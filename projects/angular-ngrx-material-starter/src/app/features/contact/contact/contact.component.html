@@ -1,0 +1,47 @@
+<div class="container" rtl>
+    <div class="row">
+      <div class="col">
+        <h1>{{ 'anms.contact.title' | translate }}</h1>
+      </div>
+    </div>
+
+
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfFtqqcrsrLFFK5Y0G7x34u4rKZ3GQgIvwKb589EZBObHK8wg/formResponse" method="POST">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <mat-card>
+          <div class="row">
+            <mat-form-field class="col" [ngClass]="routeAnimationsElements">
+              <input matInput placeholder="{{ 'anms.contact.email' | translate }}"
+                name="entry.2136636741" type="email">
+            </mat-form-field>
+          </div>
+
+          <div class="row">
+            <mat-form-field class="col" [ngClass]="routeAnimationsElements">
+              <input matInput placeholder="{{ 'anms.contact.name' | translate }}"
+              name="entry.924471316" type="text">
+            </mat-form-field>
+          </div>
+
+          <div class="row">
+            <mat-form-field class="col" [ngClass]="routeAnimationsElements">
+              <input matInput placeholder="{{ 'anms.contact.question' | translate }}"
+                name="entry.294260492" type="text">
+            </mat-form-field>
+          </div>
+
+          <div class="row buttons d-flex justify-content-between pad">
+            <button mat-raised-button color="primary" [ngClass]="routeAnimationsElements">
+              {{ 'anms.contact.send' | translate }}
+            </button>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </form>
+
+
+
+</div>
+

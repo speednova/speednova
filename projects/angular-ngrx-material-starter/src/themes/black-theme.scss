@@ -7,3 +7,8 @@ $anms-black-theme: mat-dark-theme(
   $anms-black-accent,
   $anms-black-warn
 );
+
+span.branding {
+  color: #e01f45 !important;
+  text-shadow: none !important;
+}

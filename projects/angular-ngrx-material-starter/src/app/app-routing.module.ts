@@ -13,11 +13,21 @@ const routes: Routes = [
       import('./features/about/about.module').then(m => m.AboutModule)
   },
   {
+    path: 'portfolio',
+    loadChildren: () =>
+      import('./features/portfolio/portfolio.module').then(m => m.PortfolioModule)
+  },
+  {
     path: 'servicios',
     loadChildren: () =>
       import('./features/feature-list/feature-list.module').then(
         m => m.FeatureListModule
       )
+  },
+  {
+    path: 'contacto',
+    loadChildren: () =>
+      import('./features/contact/contact.module').then(m => m.ContactModule)
   },
   {
     path: 'ajustes',
@@ -39,7 +49,7 @@ const routes: Routes = [
   // useHash supports github.io demo page, remove in your app
   imports: [
     RouterModule.forRoot(routes, {
-      useHash: true,
+      useHash: false,
       scrollPositionRestoration: 'enabled',
       preloadingStrategy: PreloadAllModules
     })

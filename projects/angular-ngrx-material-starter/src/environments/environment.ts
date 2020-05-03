@@ -7,8 +7,8 @@ const packageJson = require('../../../../package.json');
 
 export const environment = {
   appName: 'SpeedNova',
-  envName: 'PROD',
-  production: true,
+  envName: 'DEV',
+  production: false,
   test: false,
   i18nPrefix: '',
   versions: {

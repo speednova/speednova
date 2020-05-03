@@ -27,6 +27,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {  MatTabsModule } from '@angular/material/tabs';
 
 import { environment } from '../../environments/environment';
 
@@ -119,6 +120,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatTooltipModule,
     MatSnackBarModule,
     MatButtonModule,
+    MatTabsModule,
 
     // ngrx
     StoreModule.forRoot(reducers, { metaReducers }),
@@ -164,6 +166,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatTooltipModule,
     MatSnackBarModule,
     MatButtonModule,
+    MatTabsModule,
 
     // 3rd party
     FontAwesomeModule,

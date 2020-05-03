@@ -32,7 +32,10 @@
               "projects/angular-ngrx-material-starter/src/styles-app-loading.scss",
               "projects/angular-ngrx-material-starter/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "projects/angular-ngrx-material-starter/src/assets/swiper/js/swiper.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -112,7 +115,8 @@
               "projects/angular-ngrx-material-starter/src/styles-app-loading.scss",
               "projects/angular-ngrx-material-starter/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "test": {

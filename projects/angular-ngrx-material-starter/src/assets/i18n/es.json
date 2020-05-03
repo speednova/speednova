@@ -61,5 +61,12 @@
   "anms.settings.themes.title": "Temas",
   "anms.settings.title": "Ajustes",
   "anms.title.long": "SpeedNova",
-  "anms.title.short": "SpeedNova"
+  "anms.title.short": "SpeedNova",
+  "anms.contact.title": "Contacto",
+  "anms.contact.email": "Email",
+  "anms.contact.name": "Nombre",
+  "anms.contact.question": "Consulta",
+  "anms.contact.send": "Enviar",
+  "anms.menu.portfolio": "Portfolio",
+  "anms.portfolio.title": "Portfolio"
 }
